@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+header {
+    background-color: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+
+}
+
+.logoheader {
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+    height: 80px;
+    width: 234px;
+    padding: 10px;
+}
+
+.navheader{
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #F3F3F3;
+    height: 100px;
+    list-style: none;
+}
+    .navheader li{
+        margin: 0   5px;
+    }
+
+        .navheader li a {
+            display: flex;
+            line-height: 18px;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    margin-bottom: 150px;
+}
+
+.delivery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    height: 350px;
+    width: 490px;
+    background-image: url(../img/delivery.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+    .delivery h2 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        font-weight: 700px;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FC200C;
+        padding: 30px;
+        height: 350px;
+        width: 490px;
+    }
+
+        .delivery h2 span {
+            font-weight: 700px;
+            font-size: 24px;
+            line-height: 28px;
+            color: #ffffff;
+            margin: 0px 5px;
+        }
+
+.pizzas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 490px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+    .pizzas h2 { 
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        font-weight: 700px;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FC200C;
+        height: 100px;
+        width: 490px;
+        padding: 30px;
+    }
+
+    .contenedortop {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+        .contenedortop p {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 23px;
+            color: #222222;
+            margin: 20px;
+        }
+
+        .contenedortop p ol {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #222222;
+            margin: 20px;
+        }
+
+        .contenedortop .imagenpizzas {
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: flex-end;
+            display: flex;
+            width: 92px;
+            height: 129px;
+            padding: 50px;
+        }
+
+footer {
+    background-color: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+}
+
+    .logofooter {
+        align-items: center;
+        display: flex;
+        margin-right: 20px;
+        height: 80px;
+        width: 234px;
+        padding: 35px;
+    }
+
+    .navfooter {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        margin-right: 20px;
+        font-weight: 400px;
+        font-size: 16px;
+        color: #F3F3F3;
+        height: 150px;
+        list-style: none;
+    }
+
+        .navfooter li a {
+            display: flex;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
